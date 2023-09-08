@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>profile</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@300;400;700&family=Roboto+Flex:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-container">
+            <nav class="navbar">
+                <a href="index.html" class="logo"><img src="/pict.auksjon/AuctionWebsite.png" alt="Logo"></a>
+                <div class="search">
+                    <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchItems()">
+                </div>
+                <ul class="nav-links">
+                    <li><a id="registerLink" href="#">REGISTER</a></li>
+                </ul>
+                <div class="user-auth">
+                    <div id="login" class="auth-option">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div id="logout" class="auth-option">Logout</div>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+            <nav class="navbar-2">
+                <ul class="nav-links-2">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="auctions.html">New Auctions</a></li>
+                    <li><a id="addItemLink" href="add-item.html">Add Item</a></li>
+                    <li><a href="profile.html" class="active">Profile</a></li>
+
+                    <!-- <li><a href="#">Cars</a></li>
+                    <li><a href="#">Boats</a></li>
+                    <li><a href="#">Clothes</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="profile">
+        <h1>Profile</h1>
+        <aside class="user-dashboard">
+          <!-- User information here -->
+        </aside>
+       
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="/js/items.js"></script>
+      <script src="/js/script.js"></script>
+    </body>
+    </html>
