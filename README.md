@@ -37,8 +37,8 @@ To get started with BidHub, follow these steps:
 ## Technologies Used
 
 - Frontend: HTML, CSS, JavaScript,
-- Backend: Node.js, Express.js
-- Database: MongoDB
+- Backend: Node.js
+- Database: XAMPP
 - Authentication: JWT
 - Hosting: Netlify (Frontend)
 
